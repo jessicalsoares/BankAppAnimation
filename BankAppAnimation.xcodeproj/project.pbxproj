@@ -14,6 +14,10 @@
 		B53729622AF1148B00AF1714 /* BankAppAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53729612AF1148B00AF1714 /* BankAppAnimationTests.swift */; };
 		B537296C2AF1148B00AF1714 /* BankAppAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537296B2AF1148B00AF1714 /* BankAppAnimationUITests.swift */; };
 		B537296E2AF1148B00AF1714 /* BankAppAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537296D2AF1148B00AF1714 /* BankAppAnimationUITestsLaunchTests.swift */; };
+		B537297D2AF1179100AF1714 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537297C2AF1179100AF1714 /* Card.swift */; };
+		B537297F2AF119F500AF1714 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537297E2AF119F500AF1714 /* Expense.swift */; };
+		B53729812AF1203700AF1714 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53729802AF1203700AF1714 /* Home.swift */; };
+		B53729842AF1338200AF1714 /* OffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53729832AF1338200AF1714 /* OffsetReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		B53729672AF1148B00AF1714 /* BankAppAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankAppAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B537296B2AF1148B00AF1714 /* BankAppAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppAnimationUITests.swift; sourceTree = "<group>"; };
 		B537296D2AF1148B00AF1714 /* BankAppAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B537297C2AF1179100AF1714 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B537297E2AF119F500AF1714 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		B53729802AF1203700AF1714 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B53729832AF1338200AF1714 /* OffsetReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		B537294F2AF1148A00AF1714 /* BankAppAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B53729822AF1336000AF1714 /* Helpers */,
+				B537297B2AF1175F00AF1714 /* View */,
+				B537297A2AF1175600AF1714 /* Model */,
 				B53729502AF1148A00AF1714 /* BankAppAnimationApp.swift */,
 				B53729522AF1148A00AF1714 /* ContentView.swift */,
 				B53729542AF1148B00AF1714 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				B537296D2AF1148B00AF1714 /* BankAppAnimationUITestsLaunchTests.swift */,
 			);
 			path = BankAppAnimationUITests;
+			sourceTree = "<group>";
+		};
+		B537297A2AF1175600AF1714 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B537297C2AF1179100AF1714 /* Card.swift */,
+				B537297E2AF119F500AF1714 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B537297B2AF1175F00AF1714 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B53729802AF1203700AF1714 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B53729822AF1336000AF1714 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B53729832AF1338200AF1714 /* OffsetReader.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B537297F2AF119F500AF1714 /* Expense.swift in Sources */,
+				B53729842AF1338200AF1714 /* OffsetReader.swift in Sources */,
 				B53729532AF1148A00AF1714 /* ContentView.swift in Sources */,
+				B53729812AF1203700AF1714 /* Home.swift in Sources */,
+				B537297D2AF1179100AF1714 /* Card.swift in Sources */,
 				B53729512AF1148A00AF1714 /* BankAppAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
